@@ -61,7 +61,7 @@
 
 ---
 - For every game, we also need to create a window to display it in. In pygame, and many other game libraries where X and Y co-ordinates are involved, we can use this following picture to help us understand how they work
-	![image-10](https://github.com/rkomoran/2613-Portfolio/assets/103604250/fbe4e276-3e17-4fab-8931-03f915d23927)
+	>![image-10](https://github.com/rkomoran/2613-Portfolio/assets/103604250/fbe4e276-3e17-4fab-8931-03f915d23927)
 
 	 Our x values grow larger form left - right & our y values grow from top - down [ref](https://coderslegacy.com/python/python-pygame-tutorial/)
 
@@ -96,11 +96,11 @@
 
 - This code is similar to the code we saw above. We're making the game by using the library, we set a GUI of 600 by 600 with the background white, and we have the while loop currently running forever
 
-![Screenshot from 2024-02-09 12-57-24](https://github.com/rkomoran/2613-Portfolio/assets/103604250/0155d44c-a9af-41f3-ab23-36f77216281a)
+>![Screenshot from 2024-02-09 12-57-24](https://github.com/rkomoran/2613-Portfolio/assets/103604250/0155d44c-a9af-41f3-ab23-36f77216281a)
 
 - We will now add in conditionals in our loop, as well as an array to hold all the different positions our mouse has clicked on the screen. Here, I used a print statement for us to see the array working 
 
-![Screenshot from 2024-02-09 13-02-07](https://github.com/rkomoran/2613-Portfolio/assets/103604250/5e878490-6bf2-4c19-a04a-b6d3284bf112)
+>![Screenshot from 2024-02-09 13-02-07](https://github.com/rkomoran/2613-Portfolio/assets/103604250/5e878490-6bf2-4c19-a04a-b6d3284bf112)
 
 ```python
 position_counter = []
@@ -123,7 +123,7 @@ while running:
 - I also added in the colour of the circle as a variable -- so we don't have to keep writing it.
 - Note the use of `event.pos`, this gives us an x and y position value depending on where we clicked with our mouse on the screen. [ref](https://gamedevacademy.org/event-pos-pygame-tutorial-complete-guide/)
 
-![Screenshot from 2024-02-09 17-18-25](https://github.com/rkomoran/2613-Portfolio/assets/103604250/88eb741c-144a-4ab5-94c5-057f19260e99)
+>![Screenshot from 2024-02-09 17-18-25](https://github.com/rkomoran/2613-Portfolio/assets/103604250/88eb741c-144a-4ab5-94c5-057f19260e99)
 
 - We now have a shape, in this case circles, spawning where ever we click on our screen.
 
